@@ -2,7 +2,7 @@ import { useDispatch } from "react-redux";
 import { useForm } from "react-hook-form";
 import { nanoid } from "nanoid";
 import { Link, useNavigate } from "react-router-dom";
-import { aysncregisteruser } from "../stores/actions/CartActions";
+import { asyncRegisterUser } from "../stores/actions/CartActions";
 
 const Register = () => {
   const dispatch = useDispatch();
@@ -12,9 +12,12 @@ const Register = () => {
     user.id = nanoid();
     reset();
     user.isAdmin = false;
-    dispatch(aysncregisteruser(user));
+    dispatch(asyncRegisterUser(user));
     navigate("/login");
   };
+
+
+
   return (
     <form
       onSubmit={handleSubmit(registerHandler)}

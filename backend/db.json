@@ -4,11 +4,30 @@
       "id": "yt6X1nxMp6aS-pQ4M4GTU",
       "username": "Prince Sharma",
       "Email": "ceoprinceraj@gmail.com",
-      "Password": "kjlcfjkaskfj;l",
+      "Password": "12345",
       "isAdimn": true
+    },
+    {
+      "id": "NExdJ7jqMq9ymcmqJK8rW",
+      "username": "rahul-mandal",
+      "Email": "rahul@mandal.com",
+      "Password": "789456",
+      "isAdmin": false
+    },
+    {
+      "id": "r3Lt4ET74IPLDZryplnwm",
+      "username": "PRINCERAJ24EE074",
+      "Email": "ceoprinceraj@gmail.com",
+      "Password": "123456789",
+      "isAdmin": false
+    },
+    {
+      "id": "9wejFdC0N9ZWOqoY9f-Bj",
+      "username": "princerazz",
+      "Email": "hit@gmai.com",
+      "Password": "147852",
+      "isAdmin": false
     }
-    
-   
   ],
   "products": [
     {
