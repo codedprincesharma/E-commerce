@@ -1,14 +1,19 @@
-import React from "react";
+import { useDispatch } from "react-redux";
 import { useForm } from "react-hook-form";
 import { nanoid } from "nanoid";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+import { aysncregisteruser } from "../stores/actions/CartActions";
 
 const Register = () => {
+  const dispatch = useDispatch();
+  const navigate = useNavigate();
   const { register, handleSubmit, reset } = useForm();
   const registerHandler = (user) => {
     user.id = nanoid();
-    console.log(user);
     reset();
+    user.isAdmin = false;
+    dispatch(aysncregisteruser(user));
+    navigate("/login");
   };
   return (
     <form

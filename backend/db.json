@@ -1,23 +1,14 @@
 {
   "users": [
     {
-      "id": "1",
-      "name": "abhijeet-kundu",
-      "email": "john-doe@example.com",
-      "password": "1234"
-    },
-    {
-      "id": "1",
-      "name": "abhijeet-kundu",
-      "email": "john-doe@example.com",
-      "password": "1234"
-    },
-    {
-      "id": "1",
-      "name": "abhijeet-kundu",
-      "email": "john-doe@example.com",
-      "password": "1234"
+      "id": "yt6X1nxMp6aS-pQ4M4GTU",
+      "username": "Prince Sharma",
+      "Email": "ceoprinceraj@gmail.com",
+      "Password": "kjlcfjkaskfj;l",
+      "isAdimn": true
     }
+    
+   
   ],
   "products": [
     {
