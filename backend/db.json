@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "abhijeet-kundu",
+      "email": "john-doe@example.com",
+      "password": "1234"
+    },
+    {
+      "id": "1",
+      "name": "abhijeet-kundu",
+      "email": "john-doe@example.com",
+      "password": "1234"
+    },
+    {
+      "id": "1",
+      "name": "abhijeet-kundu",
+      "email": "john-doe@example.com",
+      "password": "1234"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "title": "Product 1",
+      "price": 0.1,
+      "description": "Sample product 1",
+      "category": "category-1",
+      "image": "http://example.com/image1.jpg"
+    },
+    {
+      "id": "2",
+      "title": "Product 2",
+      "price": 0.1,
+      "description": "Sample product 2",
+      "category": "category-2",
+      "image": "http://example.com/image2.jpg"
+    }
+  ]
+}
